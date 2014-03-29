@@ -1,0 +1,42 @@
+.rotate {
+    -webkit-transform-origin: 50% 0%;
+    -moz-transform-origin: 50% 0%;
+    -ms-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    position: absolute;
+    left: 195px;
+    top: 200px;
+    width: 10px;
+}
+#s {
+    width: 5px;
+    height: 190px;
+    left: 197.5px;
+    background-color: #F00;
+}
+#m {
+    height: 170px;
+    background-color: #000;
+}
+#h {
+    height: 130px;
+    background-color: #000;
+}
+#back {
+    width: 400px;
+    height: 400px;
+    background-image: url('https://dl.dropboxusercontent.com/u/55165267/clock.png');
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-size: 100%;
+}
+#center {
+    width: 10px;
+    height: 10px;
+    background-color: #CCC;
+    position: absolute;
+    top: 195px;
+    left: 195px;
+    border-radius: 100%;
+}
